@@ -1,0 +1,26 @@
+Deploy Steps
+
+1-	For angular
+1-	Create repository on GitHub
+2-	Run following commands:
+1-	git init
+2-	git add README.md
+3-	git commit -m "First commit"
+4-	git remote add origin remote repository URL
+5-	git push origin main
+6-	git add .
+7-	git commit -m "all source files"
+8-	git push origin main
+
+3-	For GitHub Pages
+1-	Select branch from repository setting/GitHub Pages “master”
+2-	Run  npm install -g angular-cli-ghpages
+3-	ng  build  –base-href “https//username.github.io/repository name/”
+4-	ng -no -silent
+
+
+2-	For Asp.netCore
+1-	By Right click on api project in vs
+2-	Select publish
+3-	Select publish folder
+
